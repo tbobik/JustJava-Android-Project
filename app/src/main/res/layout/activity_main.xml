@@ -9,6 +9,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="16dp"
+       android:text="Toppings"
+       android:textAllCaps="true" />
+
+    <CheckBox
+        android:id="@+id/whipped_cream_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whipped cream"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        android:layout_marginBottom="16sp" />
+
+    <CheckBox
+        android:id="@+id/chocolate_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolate"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        android:layout_marginBottom="16sp" />
+
     <TextView
         android:id="@+id/quantity"
         android:layout_width="wrap_content"
